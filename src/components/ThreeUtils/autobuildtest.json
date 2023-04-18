@@ -1,0 +1,236 @@
+{
+	"poleId": 18,
+	"poleCode": "杨0001202",
+	"mainPole": {
+		"mainId": 70000,
+		"mainPartsCode": "1",
+		"componentId": 42,
+		"fileAddr": "group1/M00/00/01/CggUzl6miimABugDAAMGKMqyr7E575.STL",
+		"uid": null,
+		"propertyInfo": {
+			"material": "铝合金杆",
+			"thickness": "5",
+			"color": "哑光黑",
+			"partsType": "主杆",
+			"modelName": "ZG150-150-4.51-信99",
+			"length": "6500",
+			"weight": "0",
+			"shape": "十二棱形",
+			"topDiameter": "240",
+			"bottomDiameter": "240",
+			"ratedBend": "60",
+			"ratedTorque": "10",
+			"componentName": "主杆_主杆体底280-高6500-90度-b"
+		},
+		"moduleposition": null,
+		"modulerotation": null,
+		"interfaces": [],
+		"vicePole": {
+			"viceId": 70001,
+			"vicePartsCode": "1",
+			"componentId": 19,
+			"fileAddr": "group1/M00/00/01/CggUzl6OxiuAbNN7AALoFAkBesg082.STL",
+			"uid": null,
+			"propertyInfo": {
+				"material": "铝合金杆",
+				"thickness": "0",
+				"color": "哑光黑",
+				"partsType": "副杆",
+				"modelName": "FG160-160-2.5-信达",
+				"length": "2500",
+				"weight": "0",
+				"shape": "十二棱形",
+				"topDiameter": "160",
+				"bottomDiameter": "160",
+				"ratedBend": "8",
+				"ratedTorque": "5",
+				"componentName": "副杆_160铝型材3000"
+			},
+			"angle": 0,
+			"moduleposition": null,
+			"modulerotation": null,
+			"interfaces": [],
+			"lampArms": [
+				{
+					"lampId": 70004,
+					"lampPartsCode": "1",
+					"componentId": 30,
+					"fileAddr": "group1/M00/00/01/CggUzl6Owv-ADcbVAAF9-NF7MtU893.stl",
+					"uid": null,
+					"propertyInfo": {
+						"material": "铝合金杆",
+						"thickness": "14",
+						"color": "哑光黑",
+						"partsType": "灯臂",
+						"modelName": "DB76-76-2-信达",
+						"length": "2000",
+						"weight": "60",
+						"shape": "十二棱形",
+						"topDiameter": "76",
+						"bottomDiameter": "76",
+						"ratedBend": "1.2",
+						"ratedTorque": "1.2",
+						"componentName": "灯臂_灯臂挑臂76管灯头LED"
+					},
+					"angle": 180,
+					"moduleposition": null,
+					"modulerotation": null,
+					"interfaces": [],
+					"yaxis": 8700,
+					"xaxis": 140
+				}
+			],
+			"connectors": [],
+			"yaxis": 6500,
+			"xaxis": 0
+		},
+		"poleArms": [
+			{
+				"poleArmId": 70002,
+				"armPartsCode": "1",
+				"armAngle": 0,
+				"componentId": 6,
+				"fileAddr": "group1/M00/00/01/CggUzl6NL8qAWLAlAAGRHP7Hzkk402.STL",
+				"uid": null,
+				"propertyInfo": {
+					"material": null,
+					"thickness": "0",
+					"color": "哑光黑",
+					"partsType": "横臂",
+					"modelName": "HB200-120-5-信达",
+					"length": "5000",
+					"weight": "0",
+					"shape": "十二棱形",
+					"topDiameter": "200",
+					"bottomDiameter": "120",
+					"ratedBend": "60",
+					"ratedTorque": null,
+					"componentName": "横臂_5.2M挑臂-锥杆"
+				},
+				"angle": 270,
+				"moduleposition": null,
+				"modulerotation": null,
+				"interfaces": [],
+				"carryEquips": [
+					{
+						"equipId": 71005,
+						"componentId": 34,
+						"fileAddr": "group1/M00/00/02/CggUzl6mlWyAbiqSAAP3kBTJz9I560.STL",
+						"propertyInfo": {
+							"shape": null,
+							"length": "1380",
+							"width": "460",
+							"height": "0",
+							"weight": "15",
+							"maxWindarea": "650000",
+							"componentName": "竖向三灯头红绿灯",
+							"orgType": null
+						},
+						"cableInfo": {
+							"cableCode": null,
+							"cableTypeName": null,
+							"cableModelName": null,
+							"cableSpecName": null,
+							"poleWarehouseCode": null
+						},
+						"angle": 270,
+						"moduleposition": null,
+						"modulerotation": null,
+						"interfaces": [],
+						"yaxis": 6500,
+						"xaxis": 5200
+					},
+					{
+						"equipId": 71004,
+						"componentId": 34,
+						"fileAddr": "group1/M00/00/02/CggUzl6mlWyAbiqSAAP3kBTJz9I560.STL",
+						"propertyInfo": {
+							"shape": null,
+							"length": "1380",
+							"width": "460",
+							"height": "0",
+							"weight": "15",
+							"maxWindarea": "650000",
+							"componentName": "竖向三灯头红绿灯",
+							"orgType": null
+						},
+						"cableInfo": {
+							"cableCode": null,
+							"cableTypeName": null,
+							"cableModelName": null,
+							"cableSpecName": null,
+							"poleWarehouseCode": null
+						},
+						"angle": 270,
+						"moduleposition": null,
+						"modulerotation": null,
+						"interfaces": [],
+						"yaxis": 6500,
+						"xaxis": 3785
+					}
+				],
+				"yaxis": 6500,
+				"xaxis": 140
+			},
+			{
+				"poleArmId": 70003,
+				"armPartsCode": "1",
+				"armAngle": 0,
+				"componentId": 6,
+				"fileAddr": "group1/M00/00/01/CggUzl6NL8qAWLAlAAGRHP7Hzkk402.STL",
+				"uid": null,
+				"propertyInfo": {
+					"material": null,
+					"thickness": "0",
+					"color": "哑光黑",
+					"partsType": "横臂",
+					"modelName": "HB200-120-5-信达",
+					"length": "5000",
+					"weight": "0",
+					"shape": "十二棱形",
+					"topDiameter": "200",
+					"bottomDiameter": "120",
+					"ratedBend": "60",
+					"ratedTorque": null,
+					"componentName": "横臂_5.2M挑臂-锥杆"
+				},
+				"angle": 180,
+				"moduleposition": null,
+				"modulerotation": null,
+				"interfaces": [],
+				"carryEquips": [
+					{
+						"equipId": 71002,
+						"componentId": 34,
+						"fileAddr": "group1/M00/00/02/CggUzl6mlWyAbiqSAAP3kBTJz9I560.STL",
+						"propertyInfo": {
+							"shape": null,
+							"length": "1380",
+							"width": "460",
+							"height": "0",
+							"weight": "15",
+							"maxWindarea": "650000",
+							"componentName": "竖向三灯头红绿灯",
+							"orgType": null
+						},
+						"cableInfo": {
+							"cableCode": null,
+							"cableTypeName": null,
+							"cableModelName": null,
+							"cableSpecName": null,
+							"poleWarehouseCode": null
+						},
+						"angle": 0,
+						"moduleposition": null,
+						"modulerotation": null,
+						"interfaces": [],
+						"yaxis": 6000,
+						"xaxis": -3650
+					}
+				],
+				"yaxis": 6000,
+				"xaxis": 140
+			}
+		]
+	}
+}

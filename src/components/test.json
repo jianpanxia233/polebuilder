@@ -1,0 +1,188 @@
+{	
+	"respCode": 0,
+	"returns": {
+		"components": [
+			{
+				"moduleid": "1",
+				"modulename": "杆身",
+				"classification": "杆身",
+				"url": "static/model/A类合杆/主杆_主杆体底280-高6500.stl",
+				"moduleposition": [
+					"0",
+					"33.35",
+					"0"
+				],
+				"modulerotation": [
+					"0",
+					"0",
+					"0"
+				],
+				"maxLoad": null,
+				"propertyInfo": {
+					"material": "钢",
+					"height": "6500"
+				},
+				"interfaces": [
+					{
+						"interfaceUID": 0,
+						"interfacename": "横臂插槽",
+						"interfaceposition": [
+							"0",
+							"63.15",
+							"-1.5"
+						],
+						"interfacerotation": [
+							"4.71238898038469",
+							"3.141592653589793",
+							"0"
+						],
+						"property": {
+							"angleMin": 270,
+							"angleMax": 270,
+							"yMin": 6000,
+							"yMax": 7000
+						},
+						"rules": [
+							"All",
+							"横臂_5.2M挑臂-锥杆",
+							"横臂_3.7M挑臂-锥杆",
+							"横臂_2.5M挑臂-锥杆",
+							"横臂_160挑臂5200"
+						]
+					},
+					{
+						"interfaceUID": 1,
+						"interfacename": "副杆插槽",
+						"interfaceposition": [
+							"0",
+							"65.5",
+							"0"
+						],
+						"interfacerotation": [
+							"0",
+							"0",
+							"0"
+						],
+						"rules": [
+							"All",
+							"副杆_160铝型材3500",
+							"副杆_160铝型材4350-中杆灯",
+							"副杆_160铝型材7500",
+							"副杆_160铝型材5500",
+							"副杆_160铝型材3000",
+							"副杆_160铝型材1500"
+						]
+					}
+				]
+			},
+			{
+				"moduleid": "2",
+				"modulename": "横臂插槽",
+				"classification": "插槽",
+				"url": "static/model/A类合杆-90度-a/横臂_3.7M挑臂-锥杆.STL",
+				"moduleposition": [
+					"0",
+					"18.62",
+					"-0.3"
+				],
+				"modulerotation": [
+					"4.696681017116741",
+					"0",
+					"0"
+				],
+				"maxLoad": null,
+				"propertyInfo": null,
+				"interfaces": [
+					{
+						"interfaceUID": 1,
+						"interfacename": "搭载设备插槽",
+						"interfaceposition": [
+							"0",
+							"18",
+							"-1.1"
+						],
+						"interfacerotation": [
+							"4.696681017116741",
+							"3.141592653589793",
+							"0"
+						],
+						"rules": [
+							"All"
+						]
+					},
+					{
+						"interfaceUID": 2,
+						"interfacename": "搭载设备插槽",
+						"interfaceposition": [
+							"0",
+							"23",
+							"-1.1"
+						],
+						"interfacerotation": [
+							"4.696681017116741",
+							"3.141592653589793",
+							"0"
+						],
+						"rules": [
+							"All"
+						]
+					}
+				]
+			},
+			{
+				"moduleid": "3",
+				"modulename": "横臂_3.7M挑臂-锥杆",
+				"classification": "横臂",
+				"url": "static/model/A类合杆-90度-a/横臂_3.7M挑臂-锥杆.STL",
+				"moduleposition": [
+					"0",
+					"18.62",
+					"-0.3"
+				],
+				"modulerotation": [
+					"4.696681017116741",
+					"0",
+					"0"
+				],
+				"maxLoad": null,
+				"propertyInfo": null,
+				"interfaces": [
+					{
+						"interfaceUID": 1,
+						"interfacename": "搭载设备插槽",
+						"interfaceposition": [
+							"0",
+							"18",
+							"-1.1"
+						],
+						"interfacerotation": [
+							"4.696681017116741",
+							"3.141592653589793",
+							"0"
+						],
+						"rules": [
+							"All"
+						]
+					},
+					{
+						"interfaceUID": 2,
+						"interfacename": "搭载设备插槽",
+						"interfaceposition": [
+							"0",
+							"23",
+							"-1.1"
+						],
+						"interfacerotation": [
+							"4.696681017116741",
+							"3.141592653589793",
+							"0"
+						],
+						"rules": [
+							"All"
+						]
+					}
+				]
+			}
+		]
+	}
+}

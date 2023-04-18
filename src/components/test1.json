@@ -1,0 +1,264 @@
+{
+	"components": [
+		{
+			"moduleid": "1",
+			"modulename": "主杆体底280-高6500",
+			"classification": "主杆",
+			"url": "static/model/A类合杆/主杆_主杆体底280-高6500.stl",
+			"moduleposition": [
+				"0",
+				"33.2",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": "4",
+			"propertyInfo": {
+				"length": "10",
+				"width": "5",
+				"height": "15",
+				"shape": "圆形"
+			},
+			"interfaces": [
+				{
+					"interfaceUID": 1,
+					"interfacename": "插槽",
+					"interfaceposition": [
+						"0",
+						"65.41",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"160铝型材3500"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "插槽",
+					"interfaceposition": [
+						"0",
+						"63.09",
+						"-1.45"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"3.7M挑臂-锥杆"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "2",
+			"modulename": "160铝型材3500",
+			"classification": "基本杆件",
+			"url": "static/model/160铝型材3500.STL",
+			"moduleposition": [
+				"0",
+				"18.1",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": "4",
+			"propertyInfo": {
+				"length": "10",
+				"width": "5",
+				"height": "15",
+				"shape": "圆形"
+			},
+			"interfaces": [
+				{
+					"interfaceUID": 1,
+					"interfacename": "插槽",
+					"interfaceposition": [
+						"0",
+						"18.1",
+						"-0.8"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"灯臂"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "滑槽",
+					"interfaceposition": [
+						"0",
+						"28.1",
+						"-0.8"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"滑槽"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "5",
+			"modulename": "主杆测试",
+			"classification": "主杆",
+			"url": "static/model/A类合杆/副杆_160铝型材3500.STL",
+			"moduleposition": [
+				"0",
+				"18.1",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": "4",
+			"propertyInfo": {
+				"length": "10",
+				"width": "5",
+				"height": "15",
+				"shape": "圆形"
+			},
+			"interfaces": [
+				{
+					"interfaceUID": 1,
+					"interfacename": "插槽",
+					"interfaceposition": [
+						"0",
+						"18.1",
+						"-0.8"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"灯臂"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "滑槽",
+					"interfaceposition": [
+						"0",
+						"28.1",
+						"-0.8"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"滑槽"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "3",
+			"modulename": "3.7M挑臂-锥杆",
+			"classification": "基本杆件",
+			"url": "static/model/A类合杆-90度-a/横臂_3.7M挑臂-锥杆.STL",
+			"moduleposition": [
+				"0",
+				"0",
+				"-18.7"
+			],
+			"modulerotation": [
+				"0",
+				"3.1415",
+				"0"
+			],
+			"maxLoad": "4",
+			"propertyInfo": {
+				"length": "10",
+				"width": "5",
+				"height": "15",
+				"shape": "圆形"
+			},
+			"interfaces": [
+				{
+					"interfaceUID": 1,
+					"interfacename": "插槽",
+					"interfaceposition": [
+						"0",
+						"0.73",
+						"-18"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"枪机"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "插槽",
+					"interfaceposition": [
+						"0",
+						"0.73",
+						"-23"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"枪机"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "4",
+			"modulename": "枪机",
+			"classification": "搭载设备",
+			"url": "static/model/枪机.STL",
+			"moduleposition": [
+				"0",
+				"0.9",
+				"-0.4"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": "4",
+			"propertyInfo": {
+				"length": "10",
+				"width": "5",
+				"height": "15",
+				"shape": "圆形"
+			},
+			"interfaces": []
+		}
+	]
+}

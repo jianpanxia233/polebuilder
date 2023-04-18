@@ -1,0 +1,2682 @@
+{
+	"components": [
+		{
+			"moduleid": "1",
+			"modulename": "主杆_主杆体底280-高6500",
+			"classification": "主杆",
+			"url": "static/model/A类合杆/主杆_主杆体底280-高6500.stl",
+			"moduleposition": [
+				"0",
+				"33.35",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": {
+				"material": "钢",
+				"length": "6500",
+				"topDiameter": "240",
+				"bottomDiameter": "240"
+			},
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.15",
+						"-1.5"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"property": {
+						"angleMin": 270,
+						"angleMax": 270,
+						"yMin": 6000,
+						"yMax": 7000
+					},
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"65.5",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "2",
+			"modulename": "横臂_3.7M挑臂-锥杆",
+			"classification": "横臂",
+			"url": "static/model/A类合杆-90度-a/横臂_3.7M挑臂-锥杆.STL",
+			"moduleposition": [
+				"0",
+				"18.62",
+				"-0.3"
+			],
+			"modulerotation": [
+				"4.696681017116741",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": {
+				"material": null,
+				"thickness": "0",
+				"color": "哑光黑",
+				"partsType": "横臂",
+				"modelName": "HB175-120-3.7-信达",
+				"length": "3700",
+				"weight": "0",
+				"shape": "十二棱形",
+				"topDiameter": "175",
+				"bottomDiameter": "120",
+				"ratedBend": "45",
+				"ratedTorque": null
+			},
+			"interfaces": [
+				{
+					"interfaceUID": 1,
+					"interfacename": "搭载设备插槽",
+					"interfaceposition": [
+						"0",
+						"18",
+						"-1.1"
+					],
+					"interfacerotation": [
+						"4.696681017116741",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "搭载设备插槽",
+					"interfaceposition": [
+						"0",
+						"23",
+						"-1.1"
+					],
+					"interfacerotation": [
+						"4.696681017116741",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "3",
+			"modulename": "副杆_160铝型材3500",
+			"classification": "副杆",
+			"url": "static/model/A类合杆/副杆_160铝型材3500.STL",
+			"moduleposition": [
+				"0",
+				"18.05",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "灯臂插槽",
+					"interfaceposition": [
+						"0",
+						"28.1",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"灯臂_挑臂76管灯头LED",
+						"灯臂_灯臂-L灯头-LED",
+						"灯臂_中杆灯灯头"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "4",
+			"modulename": "灯臂_挑臂76管灯头LED",
+			"classification": "灯臂",
+			"url": "static/model/A类合杆/灯臂_挑臂76管灯头LED.stl",
+			"moduleposition": [
+				"13.612",
+				"3.75",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"1.5707963267948966192313",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "6",
+			"modulename": "横臂_5.2M挑臂-锥杆",
+			"classification": "横臂",
+			"url": "static/model/A类合杆/横臂_5.2M挑臂-锥杆.STL",
+			"moduleposition": [
+				"0",
+				"26.1",
+				"-0.4"
+			],
+			"modulerotation": [
+				"4.696681017116741",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "搭载设备插槽",
+					"interfaceposition": [
+						"0",
+						"18",
+						"-1.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "7",
+			"modulename": "灯臂_灯臂-L灯头-LED",
+			"classification": "灯臂",
+			"url": "static/model/A类合杆-双挑臂-180度/灯臂_灯臂-L灯头-LED.stl",
+			"moduleposition": [
+				"0",
+				"0",
+				"6.63"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "8",
+			"modulename": "横臂_2.5M挑臂-锥杆",
+			"classification": "横臂",
+			"url": "static/model/A类合杆-双挑臂-180度/横臂_2.5M挑臂-锥杆.STL",
+			"moduleposition": [
+				"0",
+				"12.65",
+				"-0.4"
+			],
+			"modulerotation": [
+				"4.71238898038469",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "搭载设备插槽",
+					"interfaceposition": [
+						"0",
+						"12.1",
+						"-1.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "搭载设备插槽",
+					"interfaceposition": [
+						"0",
+						"17.1",
+						"-1.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "10",
+			"modulename": "主杆_主杆体底280-高8m中杆",
+			"classification": "主杆",
+			"url": "static/model/A类合杆-中杆灯/主杆_主杆体底280-高8m中杆.stl",
+			"moduleposition": [
+				"0",
+				"41.25",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.15",
+						"-1.85"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"80.45",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "11",
+			"modulename": "副杆_160铝型材4350-中杆灯",
+			"classification": "副杆",
+			"url": "static/model/A类合杆-中杆灯/副杆_160铝型材4350-中杆灯.STL",
+			"moduleposition": [
+				"0",
+				"17.5",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "灯臂插槽",
+					"interfaceposition": [
+						"0",
+						"28.1",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"灯臂_挑臂76管灯头LED",
+						"灯臂_灯臂-L灯头-LED",
+						"灯臂_中杆灯灯头"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "12",
+			"modulename": "灯臂_中杆灯灯头",
+			"classification": "灯臂",
+			"url": "static/model/A类合杆-中杆灯/灯臂_中杆灯灯头.STL",
+			"moduleposition": [
+				"0.19",
+				"2.85",
+				"-1.1"
+			],
+			"modulerotation": [
+				"0",
+				"-1.5707963267",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "14",
+			"modulename": "主杆_主杆体底240等径-高6500",
+			"classification": "主杆",
+			"url": "static/model/B类合杆-240等径杆/主杆_主杆体底240等径-高6500.STL",
+			"moduleposition": [
+				"0",
+				"33.25",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"65.48",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "15",
+			"modulename": "主杆_主杆体底240等径-高2500",
+			"classification": "主杆",
+			"url": "static/model/B类合杆-240等径杆/主杆_主杆体底240等径-高2500.STL",
+			"moduleposition": [
+				"0",
+				"13.25",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"25.48",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "16",
+			"modulename": "主杆_主杆体底240等径-高1500",
+			"classification": "主杆",
+			"url": "static/model/B类合杆-240等径杆/主杆_主杆体底240等径-高1500.STL",
+			"moduleposition": [
+				"0",
+				"8.25",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"15.48",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "17",
+			"modulename": "副杆_160铝型材7500",
+			"classification": "副杆",
+			"url": "static/model/B类合杆-240等径杆/副杆_160铝型材7500.STL",
+			"moduleposition": [
+				"0",
+				"38.05",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "灯臂插槽",
+					"interfaceposition": [
+						"0",
+						"15.48",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"灯臂_挑臂76管灯头LED",
+						"灯臂_灯臂-L灯头-LED",
+						"灯臂_中杆灯灯头"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "灯臂插槽",
+					"interfaceposition": [
+						"0",
+						"35",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"灯臂_挑臂76管灯头LED",
+						"灯臂_灯臂-L灯头-LED",
+						"灯臂_中杆灯灯头"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "灯臂插槽",
+					"interfaceposition": [
+						"0",
+						"60",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"灯臂_挑臂76管灯头LED",
+						"灯臂_灯臂-L灯头-LED",
+						"灯臂_中杆灯灯头"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "18",
+			"modulename": "副杆_160铝型材5500",
+			"classification": "副杆",
+			"url": "static/model/B类合杆-240等径杆/副杆_160铝型材5500.STL",
+			"moduleposition": [
+				"0",
+				"28.05",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "灯臂插槽",
+					"interfaceposition": [
+						"0",
+						"15.48",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"灯臂_挑臂76管灯头LED",
+						"灯臂_灯臂-L灯头-LED",
+						"灯臂_中杆灯灯头"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "灯臂插槽",
+					"interfaceposition": [
+						"0",
+						"35",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"灯臂_挑臂76管灯头LED",
+						"灯臂_灯臂-L灯头-LED",
+						"灯臂_中杆灯灯头"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "19",
+			"modulename": "副杆_160铝型材3000",
+			"classification": "副杆",
+			"url": "static/model/B类合杆-240等径杆/副杆_160铝型材3000.STL",
+			"moduleposition": [
+				"0",
+				"15.55",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": {
+				"material": "铝合金杆",
+				"thickness": "0",
+				"color": "哑光黑",
+				"partsType": "副杆",
+				"modelName": "FG160-160-2.5-信达",
+				"length": "3000",
+				"weight": "0",
+				"shape": "十二棱形",
+				"topDiameter": "160",
+				"bottomDiameter": "160",
+				"ratedBend": "8",
+				"ratedTorque": "50"
+			},
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "灯臂插槽",
+					"interfaceposition": [
+						"0",
+						"16",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"灯臂_挑臂76管灯头LED",
+						"灯臂_灯臂-L灯头-LED",
+						"灯臂_中杆灯灯头"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "21",
+			"modulename": "副杆_160铝型材1500",
+			"classification": "副杆",
+			"url": "static/model/D类合杆-2F杆7.5m/副杆_160铝型材1500.STL",
+			"moduleposition": [
+				"0",
+				"8.05",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "灯臂插槽",
+					"interfaceposition": [
+						"0",
+						"6",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"灯臂_挑臂76管灯头LED",
+						"灯臂_灯臂-L灯头-LED",
+						"灯臂_中杆灯灯头"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "22",
+			"modulename": "横臂_160挑臂5200",
+			"classification": "横臂",
+			"url": "static/model/D类合杆-2F杆7.5m/横臂_160挑臂5200.STL",
+			"moduleposition": [
+				"0",
+				"26.1",
+				"0"
+			],
+			"modulerotation": [
+				"4.71238898038469",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "23",
+			"modulename": "主杆_主杆体底280-高6500-90度-a",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底280-高6500-90度-a.stl",
+			"moduleposition": [
+				"0",
+				"33.3",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.15",
+						"-1.48"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"property": {
+						"angleMin": 270,
+						"angleMax": 270
+					},
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"65.55",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"1.75",
+						"58.8",
+						"0"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"1.5707963267948966"
+					],
+					"property": {
+						"angleMin": 0,
+						"angleMax": 0
+					},
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "24",
+			"modulename": "主杆_主杆体底300-高7500-2",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底300-高7500-2.stl",
+			"moduleposition": [
+				"0",
+				"38.2",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"62.8",
+						"-2.2"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"75.45",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"71.75",
+						"-2.2"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "25",
+			"modulename": "主杆_主杆体底280-高8m中杆-90度-a",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底280-高8m中杆-90度-a.stl",
+			"moduleposition": [
+				"0",
+				"41.3",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.15",
+						"-1.48"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"80.55",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"1.75",
+						"58.8",
+						"0"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"1.5707963267948966"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "26",
+			"modulename": "主杆_主杆体双挑底280-高6500-180",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体双挑底280-高6500-180.stl",
+			"moduleposition": [
+				"0",
+				"33.3",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.15",
+						"-1.55"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"65.55",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.15",
+						"1.55"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"3.141592653589793"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "27",
+			"modulename": "主杆_主杆体底320-高8m中杆",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底320-高8m中杆.stl",
+			"moduleposition": [
+				"0",
+				"41.3",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.2",
+						"-1.9"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"80.55",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "28",
+			"modulename": "枪机",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/枪机.stl",
+			"moduleposition": [
+				"0.4",
+				"0.9",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"4.71238898038469",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": {
+				"shape": null,
+				"length": "445",
+				"width": "140",
+				"height": "94",
+				"weight": "3",
+				"maxWindarea": "65000"
+			},
+			"interfaces": []
+		},
+		{
+			"moduleid": "29",
+			"modulename": "球机",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/球机.stl",
+			"moduleposition": [
+				"0",
+				"-3",
+				"0"
+			],
+			"modulerotation": [
+				"4.71238898038469",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "30",
+			"modulename": "灯臂_灯臂挑臂76管灯头LED",
+			"classification": "灯臂",
+			"url": "static/model/灯臂/灯臂_灯臂挑臂76管灯头LED.stl",
+			"moduleposition": [
+				"13.612",
+				"3.75",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"1.5707963267948966192313",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": {
+				"material": "铝合金杆",
+				"thickness": "0",
+				"color": "哑光黑",
+				"partsType": "灯臂",
+				"modelName": "DB76-76-1.5-信达",
+				"length": "3000",
+				"weight": "0",
+				"shape": "十二棱形",
+				"topDiameter": "220",
+				"bottomDiameter": "260",
+				"ratedBend": "80",
+				"ratedTorque": "10"
+			},
+			"interfaces": []
+		},
+		{
+			"moduleid": "31",
+			"modulename": "连接件",
+			"classification": "连接件",
+			"url": "static/model/连接件.stl",
+			"moduleposition": [
+				"7.5",
+				"0",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"1.5707963267948966",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "搭载设备插槽",
+					"interfaceposition": [
+						"15.5",
+						"0.3",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "32",
+			"modulename": "路名牌装配体",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/路名牌装配体.STL",
+			"moduleposition": [
+				0,
+				7.7,
+				0
+			],
+			"modulerotation": [
+				1.5707963267948966,
+				4.71238898038469,
+				0
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "33",
+			"modulename": "人行红绿灯",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/人行红绿灯.STL",
+			"moduleposition": [
+				0,
+				0,
+				0
+			],
+			"modulerotation": [
+				3.141592653589793,
+				1.5707963267948966,
+				0
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "34",
+			"modulename": "红绿灯",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/红绿灯.STL",
+			"moduleposition": [
+				2.4,
+				0,
+				0
+			],
+			"modulerotation": [
+				3.141592653589793,
+				1.5707963267948966,
+				0
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "35",
+			"modulename": "卡槽_方形型材-3",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/卡槽_方形型材-3.STL",
+			"moduleposition": [
+				0,
+				0,
+				0
+			],
+			"modulerotation": [
+				3.141592653589793,
+				0,
+				1.5707963267948966
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "36",
+			"modulename": "地铁指示",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/地铁指示.STL",
+			"moduleposition": [
+				1,
+				0,
+				0
+			],
+			"modulerotation": [
+				0,
+				1.5707963267948966,
+				0
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "37",
+			"modulename": "牌子-禁停",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/牌子-禁停.STL",
+			"moduleposition": [
+				1,
+				0,
+				0
+			],
+			"modulerotation": [
+				0,
+				1.5707963267948966,
+				0
+			],
+			"maxLoad": null,
+			"propertyInfo": {
+				"shape": null,
+				"length": "100",
+				"width": "800",
+				"height": "800",
+				"weight": "0",
+				"maxWindarea": "0",
+				"diameter": "800"
+			},
+			"interfaces": []
+		},
+		{
+			"moduleid": "38",
+			"modulename": "60园标识标牌",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/60园标识标牌.STL",
+			"moduleposition": [
+				1,
+				0,
+				0
+			],
+			"modulerotation": [
+				0,
+				1.5707963267948966,
+				0
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "39",
+			"modulename": "三角交通标志",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/三角交通标志.STL",
+			"moduleposition": [
+				1,
+				0,
+				0
+			],
+			"modulerotation": [
+				0,
+				1.5707963267948966,
+				0
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "40",
+			"modulename": "2F",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/2F.STL",
+			"moduleposition": [
+				1,
+				0,
+				0
+			],
+			"modulerotation": [
+				0,
+				1.5707963267948966,
+				0
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "41",
+			"modulename": "主杆_主杆体底280-高8m中杆-90度-b",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底280-高8m中杆-90度-b.STL",
+			"moduleposition": [
+				"0",
+				"41.3",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"-1.7",
+						"58.9",
+						"0"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"4.71238898038469"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"62.8",
+						"-1.8"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"80.6",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500",
+						""
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "42",
+			"modulename": "主杆_主杆体底280-高6500-90度-b",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底280-高6500-90度-b.STL",
+			"moduleposition": [
+				"0",
+				"33.3",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"-1.9",
+						"58.7",
+						"0"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"4.71238898038469"
+					],
+					"property": {
+						"angleMin": 180,
+						"angleMax": 180,
+						"yMin": 5800,
+						"yMax": 6300
+					},
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.2",
+						"-1.5"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"property": {
+						"angleMin": 270,
+						"angleMax": 270,
+						"yMin": 6300,
+						"yMax": 6800
+					},
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"65.6",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "43",
+			"modulename": "主杆_主杆体底280-高8m中杆-180度",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底280-高8m中杆-180度.STL",
+			"moduleposition": [
+				"0",
+				"41.5",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"-1.9",
+						"63.4",
+						"0"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"4.71238898038469"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"1.9",
+						"63.4",
+						"0"
+					],
+					"interfacerotation": [
+						"1.5707963267948966",
+						"0",
+						"4.71238898038469"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"80.6",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "44",
+			"modulename": "主杆_主杆体底240等径-高6500-海鸥",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底240等径-高6500-海鸥.STL",
+			"moduleposition": [
+				"0",
+				"25.7",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"48.6",
+						"-1.5"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"50.5",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "45",
+			"modulename": "主杆_主杆体底320-高6500",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底320-高6500.STL",
+			"moduleposition": [
+				"0",
+				"33.2",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.2",
+						"-1.9"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"65.5",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "46",
+			"modulename": "主杆_主杆体底300-高7000",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底300-高7000.STL",
+			"moduleposition": [
+				"0",
+				"35.6",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"66.5",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"property": {
+						"angleMin": 270,
+						"angleMax": 270,
+						"yMin": 6000,
+						"yMax": 7000
+					},
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"57.5",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"property": {
+						"angleMin": 270,
+						"angleMax": 270,
+						"yMin": 5000,
+						"yMax": 6000
+					},
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"70.3",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "47",
+			"modulename": "主杆_主杆体底300-高7500-2+1",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底300-高7500-2+1.STL",
+			"moduleposition": [
+				"0",
+				"38.2",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"53.8",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"62.8",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"71.8",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 3,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"75.4",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "48",
+			"modulename": "主杆_主杆体底300-高8500",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底300-高8500.STL",
+			"moduleposition": [
+				"0",
+				"43.3",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.9",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"72.9",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"81.9",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 3,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"85.5",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "49",
+			"modulename": "主杆_主杆体底300-高8m",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底300-高8m.STL",
+			"moduleposition": [
+				"0",
+				"40.8",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"58.8",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"67.8",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"76.8",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 3,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"80.5",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "50",
+			"modulename": "主杆_主杆体底300-高8500-3+1",
+			"classification": "主杆",
+			"url": "static/model/主杆/主杆_主杆体底300-高8500-3+1.STL",
+			"moduleposition": [
+				"0",
+				"43.3",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"54.8",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 1,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"63.8",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"72.8",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 3,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						"0",
+						"81.8",
+						"-2.1"
+					],
+					"interfacerotation": [
+						"4.71238898038469",
+						"3.141592653589793",
+						"0"
+					],
+					"rules": [
+						"All",
+						"横臂_5.2M挑臂-锥杆",
+						"横臂_3.7M挑臂-锥杆",
+						"横臂_2.5M挑臂-锥杆",
+						"横臂_160挑臂5200"
+					]
+				},
+				{
+					"interfaceUID": 4,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						"0",
+						"85.5",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"副杆_160铝型材3500",
+						"副杆_160铝型材4350-中杆灯",
+						"副杆_160铝型材7500",
+						"副杆_160铝型材5500",
+						"副杆_160铝型材3000",
+						"副杆_160铝型材1500"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "51",
+			"modulename": "海鸥臂3",
+			"classification": "横臂",
+			"url": "static/model/横臂/海鸥臂3.STL",
+			"moduleposition": [
+				"0",
+				"18.7",
+				"-8"
+			],
+			"modulerotation": [
+				"0",
+				"4.71238898038469",
+				"1.5707963267948966"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "53",
+			"modulename": "副杆_160铝型材2000",
+			"classification": "副杆",
+			"url": "static/model/副杆/副杆_160铝型材2000.STL",
+			"moduleposition": [
+				"0",
+				"10.55",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "灯臂插槽",
+					"interfaceposition": [
+						"0",
+						"5.9",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All",
+						"灯臂_挑臂76管灯头LED",
+						"灯臂_灯臂-L灯头-LED",
+						"灯臂_中杆灯灯头"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "54",
+			"modulename": "补光灯",
+			"classification": "搭载设备",
+			"url": "static/model/搭载设备/补光灯.STL",
+			"moduleposition": [
+				"0",
+				"1",
+				"0"
+			],
+			"modulerotation": [
+				"0",
+				"1.5707963267948966",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": []
+		},
+		{
+			"moduleid": "100",
+			"modulename": "杆体设备连接件",
+			"classification": "连接件",
+			"url": "static/model/杆体设备连接件.STL",
+			"moduleposition": [
+				0,
+				0,
+				0
+			],
+			"modulerotation": [
+				0,
+				1.5707963267948966,
+				0
+			],
+			"maxLoad": null,
+			"propertyInfo": null,
+			"interfaces": [
+				{
+					"interfaceUID": 0,
+					"interfacename": "搭载设备插槽",
+					"interfaceposition": [
+						"0",
+						"0",
+						"0"
+					],
+					"interfacerotation": [
+						"0",
+						"0",
+						"0"
+					],
+					"rules": [
+						"All"
+					]
+				}
+			]
+		},
+		{
+			"moduleid": "66",
+			"modulename": "虹0010307",
+			"classification": "主杆",
+			"url": "static/model/name.stl",
+			"moduleposition": [
+				0,
+				33.05499877929688,
+				0
+			],
+			"modulerotation": [
+				"0",
+				"0",
+				"0"
+			],
+			"maxLoad": null,
+			"propertyInfo": {
+				"material": "钢",
+				"height": "6500"
+			},
+			"interfaces": [
+				{
+					"interfaceUID": 2,
+					"interfacename": "副杆插槽",
+					"interfaceposition": [
+						0,
+						65.08000000000001,
+						0
+					],
+					"interfacerotation": [
+						0,
+						0,
+						0
+					],
+					"property": {},
+					"rules": [
+						"All"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						-1.86,
+						50,
+						-2.277843046414077e-16
+					],
+					"interfacerotation": [
+						1.5707963267948966,
+						-1.6653345369377348e-16,
+						1.5707963267948961
+					],
+					"property": {
+						"angleMin": 180,
+						"angleMax": 180,
+						"yMin": 5000,
+						"yMax": 5000
+					},
+					"rules": [
+						"All"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "横臂插槽",
+					"interfaceposition": [
+						1.86,
+						60,
+						0
+					],
+					"interfacerotation": [
+						1.5707963267948963,
+						5.551115123125783e-17,
+						-1.570796326794897
+					],
+					"property": {
+						"angleMin": 0,
+						"angleMax": 0,
+						"yMin": 6000,
+						"yMax": 6000
+					},
+					"rules": [
+						"All"
+					]
+				},
+				{
+					"interfaceUID": 2,
+					"interfacename": "搭载设备插槽",
+					"interfaceposition": [
+						0,
+						32.5,
+						0
+					],
+					"interfacerotation": [
+						0,
+						0,
+						0
+					],
+					"property": {},
+					"rules": [
+						"All"
+					]
+				}
+			]
+		}
+	]
+}
